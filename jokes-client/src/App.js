@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [joke, setJoke] = useState(null);
   useEffect(() => {
-    fetch("random-joke/")
+    fetch("api/v1/random-joke/")
       .then((response) => response.json())
       .then((data) => setJoke(data));
   }, []);
