@@ -1,12 +1,4 @@
-import {
-  Card,
-  Divider,
-  CardBody,
-  Heading,
-  Stack,
-  Image,
-  Text,
-} from "@chakra-ui/react";
+import { Card, CardBody, Heading, Stack, Image, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
 function App() {
