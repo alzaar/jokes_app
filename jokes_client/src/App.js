@@ -25,7 +25,7 @@ function App() {
         alignItems: "center",
         height: joke?.height,
         // width: joke?.width,
-        marginTop: "5%",
+        marginTop: "4%",
       }}
     >
       <Card>
@@ -42,7 +42,6 @@ function App() {
             <Text>{joke?.punchline}</Text>
           </Stack>
         </CardBody>
-        <Divider />
       </Card>
     </div>
   );
