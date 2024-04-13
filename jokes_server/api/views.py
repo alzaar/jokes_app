@@ -21,6 +21,8 @@ class JokesView(RetrieveModelMixin, GenericAPIView):
 
         if "type" not in joke and "url" in cat_image[0]:
             print(joke, cat_image)
+            joke = joke[0]
+            cat_image = cat_image[0]
             joke.update(cat_image)
             return JsonResponse(joke)
         else:
