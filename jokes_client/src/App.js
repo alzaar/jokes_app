@@ -25,7 +25,7 @@ function App() {
         alignItems: "center",
         height: joke?.height,
         // width: joke?.width,
-        marginTop: "8%",
+        marginTop: "5%",
       }}
     >
       <Card>
