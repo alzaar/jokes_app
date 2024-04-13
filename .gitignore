@@ -1,1 +1,4 @@
 venv
+jokes_server/api/__pycache__/
+jokes_server/jokes_server/__pycache__/
+jokes_server/db.sqlite3

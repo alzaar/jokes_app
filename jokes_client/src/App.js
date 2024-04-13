@@ -23,7 +23,8 @@ function App() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "50vh",
+        height: joke?.height,
+        // width: joke?.width,
         marginTop: "8%",
       }}
     >
@@ -33,8 +34,8 @@ function App() {
             src={joke?.url || ""}
             alt="Le chat"
             borderRadius="lg"
-            width={joke?.width > 500 ? 500 : joke?.width}
-            height={joke?.height > 500 ? 500 : joke?.height}
+            width={joke?.width}
+            height={joke?.height}
           />
           <Stack mt="6" spacing="3">
             <Heading size="md">{joke?.setup}</Heading>
